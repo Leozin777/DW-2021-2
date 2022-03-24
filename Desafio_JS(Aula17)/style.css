@@ -1,0 +1,18 @@
+body{
+    background: rgb(167, 165, 165);
+}
+
+section{
+    border: 1px red solid;
+    background: rgb(209, 207, 207);
+    padding: 10px;
+    margin: 130px;
+}
+
+section h3{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}

@@ -1,0 +1,186 @@
+*{
+    margin: 0 auto;
+}
+
+.page{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(172, 170, 170);
+}
+
+.row{
+    clear: both;
+    overflow: auto;
+}
+
+/* Cabeçalho */
+.header{
+    background-color: rgb(16, 16, 100);
+    color: #fff;
+    overflow: auto;
+}
+
+.menu{
+    bottom: 0px;
+    clear: both;
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.menuitem{
+    float: left;
+    width: 12.5%;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*Ranking*/
+.ranking{
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+}
+
+.tableranking{
+    width: 100%;
+}
+
+.tdImgClub{
+    width: 5%;
+}
+
+.tdClubName{
+    width: 42%;
+    text-align: left;
+}
+
+.tdPosition{
+    width: 3%;
+}
+
+.imgClub{
+    width: 20px;
+    height: 20px;
+}
+
+.gamewin{
+    background-image: url(../img/v.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+.gamelos{
+    background-image: url(../img/d.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+.gamedrw{
+    background-image: url(../img/e.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+.thlast{
+    width: 20%;
+}
+
+table, td, th{
+    border-bottom: solid 1px rgb(172, 170, 170);
+    border-collapse:collapse ;
+    text-align: center;
+    padding: 7px;
+}
+
+/*Goleadores*/
+.scorers{
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+}
+
+.tdplayername{
+    text-align: left;
+    width: 90%;
+}
+
+.spanclubname {
+    font-size: 12px;
+    color:rgb(172, 170, 170);
+}
+
+.tablescorers{
+    width: 100%;
+}
+
+/*Jogos*/
+.games{
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+}
+
+.match{
+    width: 100%;
+}
+
+.tablematches{
+    width: 100%;
+}
+
+.tableallmatches{
+    width: 100%;
+}
+
+.tablematches .tdClubName{
+    text-align: left;
+    width: 80%;
+}
+
+.tdtotal{
+    text-align: left;
+    font-size: 14px;
+    color: rgb(172, 170, 170);
+}
+.tablematches th, .tableallmatches, td, .tablematches{
+    border-bottom: 0px;
+}
+
+h1{
+    float: left;
+    min-width: 50%;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+h2{
+    font-size: 20px;
+    padding: 10px;
+}
+
+h3{
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+th {
+    color: gray;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
